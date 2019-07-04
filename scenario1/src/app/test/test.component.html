@@ -1,0 +1,13 @@
+<p>test works!</p>
+<h1>welcome {{name}}</h1>
+       <!--first-->
+       <input [id]="myId" type="text" value="mansi">
+       <button (click)="onClick()">getid</button>
+      <br><br>
+      <input #myData type="text">
+      <button (click)="printData(myData.value)">entered data</button>
+      <!--second--><br>
+      <br>
+      <input [(ngModel)]="scene2" type="text">
+      {{scene2}}
+      
